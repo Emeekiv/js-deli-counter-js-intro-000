@@ -8,7 +8,7 @@ function nowServing(katzDeliLine){
 }
 function currentLine(katzDeliLine){
 var line = [];
-  for (let i=0; i < katzDeliLine.length; i++){
+  for (let i = katzDeliLine.length; i = 0 ; i--){
     line = `${line} ${i + 1}. ${katzDeliLine[i]},`
   }
   return `The line is currently:${line}`
